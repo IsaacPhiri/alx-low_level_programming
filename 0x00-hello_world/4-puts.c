@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * 4-puts.c - program that prints Programming is
+ * puts - program that prints Programming is
  * like building a multilingual puzzle.
  *
  * Return: Always zero
