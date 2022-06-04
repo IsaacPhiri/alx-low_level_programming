@@ -13,7 +13,7 @@ int main(void)
 	int d1;
 	int d2;
 	int d3;
-	
+
 	for (d1 = 0; d1 <= 7; d1++)
 	{
 		for (d2 = d1 + 1; d2 <= 8; d2++)
