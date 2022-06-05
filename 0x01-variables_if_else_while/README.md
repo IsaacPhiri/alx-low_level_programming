@@ -4,11 +4,11 @@
 
 **Prerequisite**
 
-To run the programs compile the c files using ***gcc***.
+- To run the programs compile the c files using ***gcc***.
 
 **Usage**
 
-Ex. `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative`
+- Ex. `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative`
 
 **Files**
 
