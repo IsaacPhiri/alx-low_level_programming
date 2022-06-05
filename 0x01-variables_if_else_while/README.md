@@ -4,7 +4,7 @@
 
 **Prerequisite**
 
-To run the program compile the c file using ***gcc***.
+To run the programs compile the c files using ***gcc***.
 
 **Usage**
 
