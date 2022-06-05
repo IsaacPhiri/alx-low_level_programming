@@ -12,4 +12,4 @@ Ex. `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 
 
 **Files**
 
-- `0-positive_or_negative` : The program will assign a random number to the variable n each time it is executed.
+- `0-positive_or_negative.c` : The program will assign a random number to the variable n each time it is executed.
