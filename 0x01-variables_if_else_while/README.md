@@ -10,4 +10,6 @@ To run the program compile the c file using ***gcc***.
 
 Ex. `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative`
 
+**Files**
+
 - `0-positive_or_negative` : The program will assign a random number to the variable n each time it is executed.
