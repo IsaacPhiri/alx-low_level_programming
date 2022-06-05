@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main : a program that prints all possible combinations
+ * main - a program that prints all possible combinations
  * of two two-digit numbers.
  *
  * d1: var
