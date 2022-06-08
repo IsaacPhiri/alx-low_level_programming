@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <limits.h>
 #include "main.h"
 
 /**
@@ -11,7 +10,7 @@
 
 int print_last_digit(int n)
 {
-	long int last_digit;
+	long long int last_digit;
 
 	if (n > 0 || n == 0)
 	{
