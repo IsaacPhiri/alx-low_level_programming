@@ -8,6 +8,7 @@
 void times_table(void)
 {
 	int i, j, mul;
+
 	i = 0;
 
 	while (i <= 9)
@@ -17,10 +18,9 @@ void times_table(void)
 		while (j <= 9)
 		{
 			mul = (j * i);
-			
+
 			if (mul <= 9)
 			{
-				_putchar(' ');
 				_putchar(mul + '0');
 			}
 			else
@@ -28,9 +28,9 @@ void times_table(void)
 				_putchar((mul / 10) + '0');
 				_putchar((mul % 10) + '0');
 			}
-			
+
 			j++;
-			
+
 			if (j == 10)
 				break;
 
