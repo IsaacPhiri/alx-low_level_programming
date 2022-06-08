@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 
 /**
  * main - prints _putchar followed by a newline.
@@ -8,16 +10,17 @@
 
 int main(void)
 {
-	char string[] = "_putchar";
+	char c[] = "_putchar";
 	int i = 0;
 
-	while (string[i] != '\0')
+	while (c[i] != '\0')
 	{
-		putchar(string[i]);
+		_putchar(c[i]);
 		i++;
-		if (string[i] == '\0')
+
+		if (c[i] == '\0')
 		{
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
 
