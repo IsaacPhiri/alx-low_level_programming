@@ -3,8 +3,7 @@
 
 /**
  * _abs - computes the absolute value.
- *
- * @int n: arg
+ * @n: agr1
  * Return: abs_value
  */
 
