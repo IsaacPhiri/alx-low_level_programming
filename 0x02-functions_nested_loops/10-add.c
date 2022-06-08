@@ -3,7 +3,7 @@
 
 /**
  * add - adds two intergers and returns the result.
- * @n; param1
+ * @n: param1
  * @n2: para2
  *
  * Return: res
