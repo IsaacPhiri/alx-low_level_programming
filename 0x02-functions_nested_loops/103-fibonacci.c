@@ -21,7 +21,7 @@ int main(void)
 
 		if (c % 2 == 0 && c < 4000000)
 		{
-			sum = sum + 1;
+			sum = sum + c;
 		}
 	}
 	printf("%ld\n", sum);
