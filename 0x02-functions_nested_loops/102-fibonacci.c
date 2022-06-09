@@ -9,28 +9,27 @@
 
 int main(void)
 {
-	unsigned long a, b, c, count;
-	
-	a = 1;
-	b = 2;
-	count = 0;
+	unsigned long count, i, j, k;
 
-	while (count < 50)
+	i = 0;
+	j = 1;
+
+	for (count = 0; count < 50; count++)
 	{
-		printf("%ld", a);
-		
+		k = i + j;
+		i = j;
+		j = k;
+	
+		printf("%lu", k);
+	
 		if (count == 49)
 		{
-			break;
+			putchar('\n');
 		}
 		else
 		{
 			printf(", ");
 		}
-		c = a + b;
-		a = b;
-		b = c;
-		count++;
 	}
-	putchar('\n');
+	return (0);
 }
