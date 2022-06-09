@@ -4,7 +4,7 @@
  * main - prints Fizz for multiples of 3, Buzz for 5 and
  * FizzBuzz for both.
  *
- * Return: 0
+ * Return: Always 0
  */
 
 int main(void)
@@ -42,4 +42,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
+	return (0);
 }
