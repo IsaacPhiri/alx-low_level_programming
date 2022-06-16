@@ -11,20 +11,18 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int len, i, j;
-
-	len = 0;
+	int i, j;
 
 	for (i = 0; dest[i] != '\0'; i++)
 	{
-		len = len + i;
+	/* making use of variable i */
 	}
-	
-	for (j = 0; j < n && src[j] != '\0'; j++)
+
+	for (j = 0; j < n; j++)
 	{
-		dest[len + j] = src[j];
+		dest[i] = src[j];
+		i++;
 	}
-	dest[len + j] = '\0';
-	
+
 	return (dest);
 }
