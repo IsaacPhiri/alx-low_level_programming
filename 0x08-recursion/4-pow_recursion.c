@@ -5,6 +5,7 @@
  * @x: parameter1
  * @y: parameter2
  *
+ * Return: x * _pow_recursion(x, y - 1)
  */
 
 int _pow_recursion(int x, int y)
