@@ -31,10 +31,10 @@ char *create_array(unsigned int size, char c)
 		{
 			i = 0;
 
-			while(*ptr == '\0')
+			while(ptr[i] == '\0')
 			{
-				*ptr = c;
-			       i++;	
+				ptr[i] = c;
+				i++;
 			}
 		}
 	}
