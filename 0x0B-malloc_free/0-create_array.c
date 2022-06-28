@@ -12,6 +12,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char *ptr;
+	int i;
 
 	if (size == 0)
 	{
@@ -21,11 +22,20 @@ char *create_array(unsigned int size, char c)
 	if (size > 0)
 	{
 		ptr = (char *)malloc(sizeof(char) * size);
-		*ptr = c;
 
 		if (ptr == NULL)
 		{
 			return (NULL);
+		}
+		else
+		{
+			i = 0;
+
+			while(*ptr == '\0')
+			{
+				*ptr = c;
+			       i++;	
+			}
 		}
 	}
 
