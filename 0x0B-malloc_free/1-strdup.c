@@ -17,25 +17,25 @@ char *_strdup(char *str)
 	unsigned int i, len;
 	char *ptr;
 
+	i = 0;
+
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+
 	for (len = 0; str[len] != '\0'; len++)
 		;
 
-	if (len > 0)
+	ptr = (char *)malloc(sizeof(char) * len + 1);
+
+	if (ptr == NULL)
 	{
-		ptr = (char *)malloc(sizeof(char) * len + 1);
-
-		if (ptr == NULL)
-		{
-			return (NULL);
-		}
-		else
-		{
-			i = 0;
-
-			while ((ptr[i] = str[i]) != '\0')
-				i++;
-		}
+		return (NULL);
 	}
+
+	while ((ptr[i] = str[i]) != '\0')
+		i++;
 
 	return (ptr);
 }
