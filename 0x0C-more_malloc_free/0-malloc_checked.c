@@ -17,15 +17,11 @@ void *malloc_checked(unsigned int b)
 
 	if (ptr == NULL)
 	{
-		return (NULL);
+		exit(98);
 	}
 
 	if (ptr != NULL)
 	{
 		return (ptr);
-	}
-	else
-	{
-		exit(3);
 	}
 }
