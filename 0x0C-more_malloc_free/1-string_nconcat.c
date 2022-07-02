@@ -49,6 +49,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			len_s1++;
 		}
 	}
-	s3[len + 1] = '\0';
+	s3[len] = '\0';
 	return (s3);
 }
