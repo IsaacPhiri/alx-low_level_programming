@@ -70,7 +70,7 @@
 - You are allowed to use the standard library
 - Your program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
 
-12. `101-print_number.c` : a function that prints an integer.
+12. `101-print_number.c` `NOT YET SOLVED`: a function that prints an integer.
 - Prototype: void print_number(int n);
 - You can only use _putchar function to print
 - You are not allowed to use long
