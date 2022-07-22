@@ -10,12 +10,12 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int decval = 1;
 	int i, x;
 
-	if (b == NULL)
+	if (!b)
 		return (0);
 
 	for (x = 0; b[x] != '\0'; x++)
 	{
-		if (b[x] != '0' && b[x] != '1')
+		if (b[x] < '0' || b[x] > '1')
 		{
 			return (0);
 		}
