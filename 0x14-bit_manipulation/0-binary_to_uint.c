@@ -1,6 +1,10 @@
 #include "main.h"
 
 /**
+ * binary_to_uint - binary to int
+ * @b: string of chars
+ *
+ * Return: converted number or 0 if theres no chars and if b is NULL
  */
 
 unsigned int binary_to_uint(const char *b)
@@ -27,6 +31,6 @@ unsigned int binary_to_uint(const char *b)
 			total += decval;
 		decval *= 2;
 	}
-	
+
 	return (total);
 }
