@@ -17,31 +17,28 @@ void times_table(void)
 
 		while (j <= 9)
 		{
-			mul = (j * i);
+			mul = j * i;
 
-			if (mul <= 9)
+			if (j == 0)
 			{
 				_putchar(mul + '0');
-				if (j == 9)
-					break;
+			}
+
+			if (mul < 10 && j != 0)
+			{
 				_putchar(',');
 				_putchar(' ');
+				_putchar(' ');
+				_putchar(mul + '0');
 			}
-			else
+			else if (mul >= 10)
 			{
+				_putchar(',');
+				_putchar(' ');
 				_putchar((mul / 10) + '0');
 				_putchar((mul % 10) + '0');
-				if (j == 9)
-					break;
-				_putchar(',');
 			}
-
 			j++;
-
-			if (j == 10)
-				break;
-
-			_putchar(' ');
 		}
 		i++;
 		_putchar('\n');
