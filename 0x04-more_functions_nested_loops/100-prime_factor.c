@@ -9,8 +9,7 @@
 
 int main(void)
 {
-	long int num;
-	long int count;
+	long int num, count;
 
 	num = 612852475143;
 
@@ -18,15 +17,12 @@ int main(void)
 	{
 		while (num % count == 0)
 		{
-			printf("%ld", count);
 			num = num / count;
-			if (num == 1)
-				break;
-			putchar(',');
-			putchar(' ');
+		}
+		if (num == 1)
+		{
+			printf("%ld\n", count);
 		}
 	}
-	putchar('\n');
-
 	return (0);
 }
