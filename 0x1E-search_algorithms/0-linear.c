@@ -2,9 +2,9 @@
 
 /**
  * linear_search - search in a linear manner
- * @array
- * @size
- * @value
+ * @array:
+ * @size:
+ * @value:
  * Return: int
  */
 
